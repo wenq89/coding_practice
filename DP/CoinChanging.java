@@ -10,7 +10,7 @@ public static long getWays(int n, List<Long> c) {
 		return 0;
 
 	//i is the row, the number of coins we are going to use.
-	//the col is ways of using only i coins.
+	//the col(j) is ways of using only i coins.
 	long[][] ways = new long[c.size()][n+1];
 	
 	//initialize the first line.(only use one coin)
